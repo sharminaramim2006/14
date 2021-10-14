@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding-bottom: 0;
+    box-sizing: border-box;
+}
+ header a{
+    font-size: 13px;
+color: gray;
+}
+header a:hover{
+    cursor: pointer;
+  color: #1c5c93 ;
+ }
+header{
+    background-color: #FFFFFF;
+    height:4rem;
+    cursor: pointer;
+} 
+ 
+.hero{
+background-image: url(./portfolio-2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: justify;
+  margin-top: 5rem;
+ height: 20rem;
+
+}
+.hero p{
+  color: white;
+}
+.hero h1{
+  color: white;
+}
+.icon{
+  display: flex;
+}
+.card{
+  cursor: pointer;
+  background-color: #F5F9FC;
+  height: 18rem;
+}
+.container{
+  padding-top: 6rem;
+  
+}
+.cards{
+  background-color: white;
+  width: 25%;
+  margin-left: 1.5rem;
+  height: 9rem;
+width: 15rem;
+ border: 1px solid white;
+ padding-top: 2rem;
+
+
+}
+.services p{
+font-size: 13px;
+}
